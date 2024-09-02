@@ -33,7 +33,7 @@ Changes = "https://werkzeug.palletsprojects.com/changes/"
 Chat = "https://discord.gg/pallets"
 
 [project.optional-dependencies]
-watchdog = ["watchdog>=2.3"]
+watchdog = ["watchdog>=2.3,<5"]
 
 [build-system]
 requires = ["flit_core<4"]
